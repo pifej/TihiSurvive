@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * @author root
  *
  */
-public class Tile extends Karma{
+public class Tile extends Karma implements Cloneable{
 	private int Id;
 	private String Type;
 	private ArrayList<String> validTypes = new ArrayList<String>();
@@ -31,5 +31,19 @@ public class Tile extends Karma{
 	
 	int getId() {return this.Id;}
 	String getType() {return this.Type;}
+	
+	public Object clone() {
+		Object clone = null;
+		try {
+			clone = super.clone();
+		}catch(CloneNotSupportedException e) {
+			System.out.println(e.getMessage());
+			System.out.println(e.toString());
+	        e.printStackTrace();
+		}
+	      
+	    return clone;
+	}
 
 }
+

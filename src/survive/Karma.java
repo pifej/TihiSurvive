@@ -1,3 +1,5 @@
+package survive;
+
 /**
  * @author root
  *
@@ -9,11 +11,14 @@ public class Karma {
 		tihi = new Tihi();
 	}
 	
-	void addHP(int add) {
+	protected void addHP(int add) {
 		tihi.addHP(add);
 	}
 	
-	void subHP(int sub) {
+	protected void subHP(int sub) {
 		tihi.subHP(sub);
+	}
+	protected void setHP2MAX() {
+		tihi.setHP2MAX();
 	}
 }

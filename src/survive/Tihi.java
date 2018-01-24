@@ -1,3 +1,4 @@
+package survive;
 /**
  * @author root
  *
@@ -38,6 +39,10 @@ public class Tihi {
 		}
 	}
 	
-	int getHP() {return this.HP;}
-	int getMaxHP() {return this.maxHP;}
+	protected void setHP2MAX() {
+		this.HP = this.maxHP;
+	}
+	
+	public int getHP() {return this.HP;}
+	public int getMaxHP() {return this.maxHP;}
 }

@@ -15,7 +15,7 @@ public class Obstacle extends Tile {
 	
 	@Override
 	void Action() {
-		// TODO Auto-generated method stub
+		// Tihi cannot move to an obstacle
 
 	}
 

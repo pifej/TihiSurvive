@@ -16,8 +16,7 @@ public class Paradise extends Tile {
 	
 	@Override
 	void Action() {
-		// TODO Auto-generated method stub
-
+		//TODO End of the game Tihi survived!
 	}
 
 }

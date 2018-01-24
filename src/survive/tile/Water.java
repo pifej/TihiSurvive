@@ -9,12 +9,13 @@ package survive.tile;
  */
 public class Water extends Tile {
 
-	/* (non-Javadoc)
-	 * @see survive.tile.Tile#Action()
-	 */
+	public Water() {
+		super.type = "Water";
+	}
+	
 	@Override
 	void Action() {
-		// TODO Auto-generated method stub
+		// TODO Tihi loses hp slower for a while
 
 	}
 

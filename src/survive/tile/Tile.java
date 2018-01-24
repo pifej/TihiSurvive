@@ -7,13 +7,9 @@ import survive.Karma;
  *
  */
 public abstract class Tile extends Karma implements Cloneable{
-	private int id;
 	protected String type;
 	
 	abstract void Action();
-	
-	int getId() {return this.id;}
-	String getType() {return this.type;}
 	
 	public Object clone() {
 		Object clone = null;

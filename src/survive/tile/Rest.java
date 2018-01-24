@@ -15,8 +15,12 @@ public class Rest extends Tile {
 	
 	@Override
 	void Action() {
-		// TODO Auto-generated method stub
-
+		
+		// TODO Tihi cannot move for a while and gets maxHP
+		
+		
+		
+		super.setHP2MAX();
 	}
 
 }

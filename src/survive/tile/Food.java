@@ -3,6 +3,7 @@
  */
 package survive.tile;
 
+
 /**
  * @author root
  *
@@ -15,8 +16,7 @@ public class Food extends Tile {
 	
 	@Override
 	void Action() {
-		// TODO Auto-generated method stub
-
+		super.addHP(25);
 	}
 
 }

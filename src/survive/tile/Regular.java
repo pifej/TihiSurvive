@@ -15,7 +15,7 @@ public class Regular extends Tile {
 	
 	@Override
 	void Action() {
-		// TODO Auto-generated method stub
+		// Nothing happens
 
 	}
 
